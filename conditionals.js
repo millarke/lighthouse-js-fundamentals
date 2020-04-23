@@ -1,5 +1,6 @@
 const temperature = 55;
 let severeTemp = false
+let raining = false
 
 if (temperature < -40 || temperature > 40) 
 {
@@ -21,6 +22,10 @@ if ((severeTemp == false))
   {
     console.log("Short sleeves are fine.");
   }
+}
+
+if (!raining && severeTemp == false) {
+  console.log("Leave your umbrella at home!");
 }
 
 //console.log("Now you're ready to go outside!");
