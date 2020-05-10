@@ -1,4 +1,4 @@
-var balance = -325;
+var balance = 500;
 var checkBalance = true;
 var isActive = true;
 
