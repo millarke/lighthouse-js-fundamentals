@@ -19,9 +19,7 @@ var donuts = [
 ];
 
 donuts.forEach(function(donut) {
-
-console.log(donut.type + " donuts cost $" + donut.cost + " each")
-
+  console.log(donut.type + " donuts cost $" + donut.cost + " each")
 });
 
 
